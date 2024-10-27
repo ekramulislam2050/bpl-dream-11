@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "playerName": "Mitchell Starc",
+        "country": "Australia",
+        "playerType": "Fast Bowler",
+        "rating": "⭐⭐⭐⭐⭐",
+        "price": 2970000,
+        "coin": 6000000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 2,
+        "playerName": "Pat Cummins",
+        "country": "Australia",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐⭐⭐",
+        "price": 2460000,
+        "coin": 5700000,
+        "handed": "Right-Handed"
+    },
+    {
+        "id": 3,
+        "playerName": "Sam Curran",
+        "country": "England",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐⭐",
+        "price": 2220000,
+        "coin": 5400000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 4,
+        "playerName": "Cameron Green",
+        "country": "Australia",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐⭐",
+        "price": 2100000,
+        "coin": 5100000,
+        "handed": "Right-Handed"
+    },
+    {
+        "id": 5,
+        "playerName": "Ben Stokes",
+        "country": "England",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐⭐",
+        "price": 1950000,
+        "coin": 4800000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 6,
+        "playerName": "Chris Morris",
+        "country": "South Africa",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐",
+        "price": 1950000,
+        "coin": 4500000,
+        "handed": "Right-Handed"
+    },
+    {
+        "id": 7,
+        "playerName": "Nicolas Pooran",
+        "country": "West Indies",
+        "playerType": "Batsman",
+        "rating": "⭐⭐⭐",
+        "price": 1920000,
+        "coin": 4200000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 8,
+        "playerName": "Yuvraj Singh",
+        "country": "India",
+        "playerType": "Batsman",
+        "rating": "⭐⭐⭐⭐",
+        "price": 1920000,
+        "coin": 3900000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 9,
+        "playerName": "Ishan Kishan",
+        "country": "India",
+        "playerType": "Wicketkeeper-Batsman",
+        "rating": "⭐⭐⭐⭐",
+        "price": 1830000,
+        "coin": 3600000,
+        "handed": "Left-Handed"
+    },
+    {
+        "id": 10,
+        "playerName": "Kyle Jamieson",
+        "country": "New Zealand",
+        "playerType": "All-Rounder",
+        "rating": "⭐⭐⭐⭐",
+        "price": 1800000,
+        "coin": 3300000,
+        "handed": "Right-Handed"
+    },
+    {
+        "id": 11,
+        "playerName": "Harshal Patel",
+        "country": "India",
+        "playerType": "Bowler",
+        "rating": "⭐⭐⭐⭐⭐",
+        "price": 1410000,
+        "coin": 3000000,
+        "handed": "Right-Handed"
+    },
+    {
+        "id": 12,
+        "playerName": "Rilee Rossouw",
+        "country": "South Africa",
+        "playerType": "Batsman",
+        "rating": "⭐⭐⭐⭐",
+        "price": 960000,
+        "coin": 600000,
+        "handed": "Left-Handed"
+    }
+]

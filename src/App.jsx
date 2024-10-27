@@ -3,13 +3,16 @@ import './App.css'
 import { useEffect, useState } from "react";
 import Headers from "./Components/Headers/Headers";
 import Banners from "./Components/Banners/Banners";
+import Mains from "./Components/Mains/Mains";
 
 
 
 
 function App() {
   // states here-------------------
-  const [allData, setAllData] = useState([]);
+  const [allData, setAllData] = useState([])
+
+  
   // all data fetch ---------------------
   useEffect(() => {
     const dataFetch = async () => {
@@ -24,13 +27,18 @@ function App() {
   return (
     <>
       <Favicon url="https://i.ibb.co.com/KGdk8wg/cricket-1.png"></Favicon>
-
-      <div className="w-11/12 mx-auto my-5 sticky top-0 ">
+   
+      <div className="sticky top-0 z-50">
         <Headers></Headers>
       </div>
-      <div className="">
-        <Banners></Banners>
-      </div>
+    
+      <Banners></Banners>
+       <Mains allData={allData}></Mains>
+   
+      
+    
+      
+   
 
 
     </>

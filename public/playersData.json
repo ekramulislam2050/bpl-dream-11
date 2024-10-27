@@ -7,7 +7,8 @@
         "rating": "⭐⭐⭐⭐⭐",
         "price": 2970000,
         "coin": 6000000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/mitchell_starc.jpg"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "rating": "⭐⭐⭐⭐⭐",
         "price": 2460000,
         "coin": 5700000,
-        "handed": "Right-Handed"
+        "handed": "Right-Handed",
+        "imageUrl": "https://example.com/images/pat_cummins.jpg"
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 2220000,
         "coin": 5400000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/sam_curran.jpg"
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 2100000,
         "coin": 5100000,
-        "handed": "Right-Handed"
+        "handed": "Right-Handed",
+        "imageUrl": "https://example.com/images/cameron_green.jpg"
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 1950000,
         "coin": 4800000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/ben_stokes.jpg"
     },
     {
         "id": 6,
@@ -57,7 +62,8 @@
         "rating": "⭐⭐⭐",
         "price": 1950000,
         "coin": 4500000,
-        "handed": "Right-Handed"
+        "handed": "Right-Handed",
+        "imageUrl": "https://example.com/images/chris_morris.jpg"
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@
         "rating": "⭐⭐⭐",
         "price": 1920000,
         "coin": 4200000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/nicolas_pooran.jpg"
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 1920000,
         "coin": 3900000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/yuvraj_singh.jpg"
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 1830000,
         "coin": 3600000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/ishan_kishan.jpg"
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@
         "rating": "⭐⭐⭐⭐",
         "price": 1800000,
         "coin": 3300000,
-        "handed": "Right-Handed"
+        "handed": "Right-Handed",
+        "imageUrl": "https://example.com/images/kyle_jamieson.jpg"
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@
         "rating": "⭐⭐⭐⭐⭐",
         "price": 1410000,
         "coin": 3000000,
-        "handed": "Right-Handed"
+        "handed": "Right-Handed",
+        "imageUrl": "https://example.com/images/harshal_patel.jpg"
     },
     {
         "id": 12,
@@ -117,6 +128,7 @@
         "rating": "⭐⭐⭐⭐",
         "price": 960000,
         "coin": 600000,
-        "handed": "Left-Handed"
+        "handed": "Left-Handed",
+        "imageUrl": "https://example.com/images/rilee_rossouw.jpg"
     }
 ]

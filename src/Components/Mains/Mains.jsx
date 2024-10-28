@@ -17,7 +17,7 @@ const Mains = ({ allData }) => {
                     <button className="px-4 py-2 border rounded">Selected</button>
                 </div>
             </div>
-            <div className="w-10/12 mx-auto border ">
+            <div className="w-10/12 mx-auto border pb-[25vh]">
 
                 <div className="grid justify-center grid-cols-3 ">
                     {allData.map((data, index) =>

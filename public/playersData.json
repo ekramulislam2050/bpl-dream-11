@@ -8,7 +8,7 @@
         "price": 2970000,
         "coin": 6000000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/mitchell_starc.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "price": 2460000,
         "coin": 5700000,
         "handed": "Right-Handed",
-        "imageUrl": "https://example.com/images/pat_cummins.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "price": 2220000,
         "coin": 5400000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/sam_curran.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "price": 2100000,
         "coin": 5100000,
         "handed": "Right-Handed",
-        "imageUrl": "https://example.com/images/cameron_green.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "price": 1950000,
         "coin": 4800000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/ben_stokes.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "price": 1950000,
         "coin": 4500000,
         "handed": "Right-Handed",
-        "imageUrl": "https://example.com/images/chris_morris.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
         "price": 1920000,
         "coin": 4200000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/nicolas_pooran.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
         "price": 1920000,
         "coin": 3900000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/yuvraj_singh.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "price": 1830000,
         "coin": 3600000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/ishan_kishan.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "price": 1800000,
         "coin": 3300000,
         "handed": "Right-Handed",
-        "imageUrl": "https://example.com/images/kyle_jamieson.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
         "price": 1410000,
         "coin": 3000000,
         "handed": "Right-Handed",
-        "imageUrl": "https://example.com/images/harshal_patel.jpg"
+        "imageUrl":"https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     },
     {
         "id": 12,
@@ -129,6 +129,6 @@
         "price": 960000,
         "coin": 600000,
         "handed": "Left-Handed",
-        "imageUrl": "https://example.com/images/rilee_rossouw.jpg"
+        "imageUrl": "https://i.ibb.co.com/dJ3FsVr/pexels-case-originals-3601184.jpg"
     }
 ]

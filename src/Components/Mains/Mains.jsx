@@ -3,7 +3,7 @@ import Main from "../Main/Main";
 import PropTypes from 'prop-types';
 
 
-const Mains = ({ allData }) => {
+const Mains = ({ allData  }) => {
     // console.log(data)
 
     return (
@@ -21,7 +21,7 @@ const Mains = ({ allData }) => {
 
                 <div className="grid justify-center grid-cols-3 ">
                     {allData.map((data, index) =>
-                        <Main data={data} key={index}></Main>
+                        <Main data={data} key={index}  ></Main>
                     )}
                 </div>
 

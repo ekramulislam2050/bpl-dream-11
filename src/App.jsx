@@ -24,30 +24,40 @@ function App() {
     }
     dataFetch()
   }, [])
-
-  return (
-    <>
-      <Favicon url="https://i.ibb.co.com/KGdk8wg/cricket-1.png"></Favicon>
-
-      <div className="sticky top-0 z-50">
-        <Headers></Headers>
-      </div>
-
-      <Banners></Banners>
-      <div>
-        <Mains allData={allData}></Mains>
-      </div>
-      <div>
-        <Footers></Footers>
-      </div>
+  // handle Credit Btn------------------
+  const handleCreditBtn = () => {
+         let x = 0
+        if(allData.length <12){
+            console.log(x+1)
+        }
+}
 
 
 
 
+return (
+  <>
+    <Favicon url="https://i.ibb.co.com/KGdk8wg/cricket-1.png"></Favicon>
+
+    <div className="sticky top-0 z-50">
+      <Headers></Headers>
+    </div>
+
+    <Banners handleCreditBtn={handleCreditBtn}></Banners>
+
+    <Mains allData={allData} ></Mains>
 
 
-    </>
-  )
+    <Footers></Footers>
+
+
+
+
+
+
+
+  </>
+)
 }
 
 export default App

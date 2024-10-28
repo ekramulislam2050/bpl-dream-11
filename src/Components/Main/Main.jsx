@@ -1,13 +1,17 @@
 import PropTypes from "prop-types"
 import { FaUser } from "react-icons/fa";
 import { IoFlagSharp } from "react-icons/io5";
+ 
+ 
 
 
-const Main = ({ data }) => {
+const Main = ({data}) => {
     // console.log(data)
     const { playerName, country, playerType, rating, handed, price, imageUrl } = data
     return (
+      
         <div>
+       
             <div className="p-5 m-4 border rounded-2xl">
                 <div className="">
                     <img src={imageUrl} alt="" className="rounded-xl" />

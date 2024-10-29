@@ -25,12 +25,21 @@ function App() {
     dataFetch()
   }, [])
   // handle Credit Btn------------------
+   const [updateIndx,setUpdateIndx]=useState(0)
+   const [updateCoin,setUpdateCoin]=useState(0)
   const handleCreditBtn = () => {
-         let x = 0
-        if(allData.length <12){
-            console.log(x+1)
-        }
-}
+          if(updateIndx<allData.length){
+          
+            const storeDataFromAllData = allData[updateIndx]
+            if('coin' in storeDataFromAllData ){
+              setUpdateCoin(updateCoin + storeDataFromAllData.coin)
+            }
+            setUpdateIndx(updateIndx + 1)
+          }
+          // console.log(updateIndx)
+        
+  }
+ 
 
 
 
@@ -40,7 +49,7 @@ return (
     <Favicon url="https://i.ibb.co.com/KGdk8wg/cricket-1.png"></Favicon>
 
     <div className="sticky top-0 z-50">
-      <Headers></Headers>
+      <Headers updateCoin={updateCoin}></Headers>
     </div>
 
     <Banners handleCreditBtn={handleCreditBtn}></Banners>

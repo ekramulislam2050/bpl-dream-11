@@ -1,11 +1,22 @@
+import PropTypes from "prop-types"
+import SelectPlayer from "../SelectPlayer/SelectPlayer";
  
-
-const SelectPlayers = ({selectedId}) => {
+const SelectPlayers = ({ data,handleDeleteBtn }) => {
+    //   console.log(data)
+ 
     return (
         <div>
-            <h1> select:{selectedId.length}</h1>
+
+          <SelectPlayer data={data} handleDeleteBtn={handleDeleteBtn}></SelectPlayer>
+     
+        
+    
+
         </div>
     );
 };
-
+SelectPlayers.propTypes = {
+    data: PropTypes.object.isRequired,
+    handleDeleteBtn:PropTypes.func.isRequired
+}
 export default SelectPlayers;

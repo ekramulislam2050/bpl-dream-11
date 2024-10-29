@@ -1,11 +1,11 @@
 
+import { useState } from "react";
 import Main from "../Main/Main";
 import PropTypes from 'prop-types';
-
-
+ 
 const Mains = ({ allData,handleChoosePlayerBtn }) => {
     // console.log(data)
-
+       
     return (
         <div>
             <div className="flex justify-between w-10/12 mx-auto mt-20">
@@ -14,7 +14,7 @@ const Mains = ({ allData,handleChoosePlayerBtn }) => {
                 </div>
                 <div>
                     <button className="px-4 py-2 bg-green-300 border rounded">Available</button>
-                    <button className="px-4 py-2 border rounded">Selected</button>
+                    <button className="px-4 py-2 border rounded"  >Selected</button>
                 </div>
             </div>
             <div className="w-10/12 mx-auto border pb-[25vh]">
@@ -32,5 +32,6 @@ const Mains = ({ allData,handleChoosePlayerBtn }) => {
 
 Mains.propTypes = {
     allData: PropTypes.array.isRequired,
+    handleChoosePlayerBtn:PropTypes.func.isRequired
 }
 export default Mains;

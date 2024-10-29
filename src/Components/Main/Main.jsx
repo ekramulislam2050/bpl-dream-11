@@ -32,7 +32,7 @@ const Main = ({data,handleChoosePlayerBtn}) => {
                     </div>
                     <div className="flex justify-between">
                         <p>Price : ${price}</p>
-                        <button className="px-2 py-1 border rounded" onClick={()=>handleChoosePlayerBtn(data)}>Choose Player</button>
+                        <button className="px-2 py-1 border rounded" onClick={()=>handleChoosePlayerBtn(data,id)}>Choose Player</button>
                     </div>
                 </div>
             </div>

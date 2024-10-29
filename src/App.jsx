@@ -6,6 +6,7 @@ import Banners from "./Components/Banners/Banners";
 import Mains from "./Components/Mains/Mains";
 import Footers from "./Components/Footers/Footers";
 import SelectPlayers from "./Components/SelectPlayers/SelectPlayers";
+import { BsDatabaseDown } from "react-icons/bs";
 
 
 
@@ -46,16 +47,18 @@ function App() {
           }
   }
   // handle Choose Player Btn--------------------------
-  const [selectedId,setSelectedId]=useState([])
+      const [players,setPlayers]=useState([])
+      // console.log(players)
   const handleChoosePlayerBtn=(data)=>{
-          const id = data.id
-        const  newArr = [...selectedId,id]
-        
-        setSelectedId(newArr)
+         const newArr=[...players,data]
+         setPlayers(newArr)
   }
  
-
-
+// delete Btn-----------------------
+const handleDeleteBtn =(id)=>{
+     const remaining = players.filter(players=>players.id !==id)
+      setPlayers(remaining)
+}
 
 
 return (
@@ -72,8 +75,9 @@ return (
 
 
     <Footers></Footers>
-      <SelectPlayers selectedId={selectedId}></SelectPlayers>
-      
+      {
+        players.map((data,index) => < SelectPlayers data={data} key={index} handleDeleteBtn={handleDeleteBtn}></ SelectPlayers>)
+      }
 
 
 

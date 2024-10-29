@@ -5,6 +5,7 @@ import Headers from "./Components/Headers/Headers";
 import Banners from "./Components/Banners/Banners";
 import Mains from "./Components/Mains/Mains";
 import Footers from "./Components/Footers/Footers";
+import SelectPlayers from "./Components/SelectPlayers/SelectPlayers";
 
 
 
@@ -28,16 +29,29 @@ function App() {
    const [updateIndx,setUpdateIndx]=useState(0)
    const [updateCoin,setUpdateCoin]=useState(0)
   const handleCreditBtn = () => {
+
           if(updateIndx<allData.length){
-          
+            
             const storeDataFromAllData = allData[updateIndx]
-            if('coin' in storeDataFromAllData ){
+            if('coin' in storeDataFromAllData  ){
+             
               setUpdateCoin(updateCoin + storeDataFromAllData.coin)
+               setTimeout(()=>{
+                alert('added credit')  
+               },0)
             }
-            setUpdateIndx(updateIndx + 1)
+           
+            setUpdateIndx( updateIndx + 1)
+         
           }
-          // console.log(updateIndx)
+  }
+  // handle Choose Player Btn--------------------------
+  const [selectedId,setSelectedId]=useState([])
+  const handleChoosePlayerBtn=(data)=>{
+          const id = data.id
+        const  newArr = [...selectedId,id]
         
+        setSelectedId(newArr)
   }
  
 
@@ -54,11 +68,12 @@ return (
 
     <Banners handleCreditBtn={handleCreditBtn}></Banners>
 
-    <Mains allData={allData} ></Mains>
+    <Mains allData={allData} handleChoosePlayerBtn={handleChoosePlayerBtn}></Mains>
 
 
     <Footers></Footers>
-
+      <SelectPlayers selectedId={selectedId}></SelectPlayers>
+      
 
 
 

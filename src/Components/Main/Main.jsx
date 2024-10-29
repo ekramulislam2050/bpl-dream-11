@@ -5,9 +5,9 @@ import { IoFlagSharp } from "react-icons/io5";
  
 
 
-const Main = ({data}) => {
+const Main = ({data,handleChoosePlayerBtn}) => {
     // console.log(data)
-    const { playerName, country, playerType, rating, handed, price, imageUrl } = data
+    const { playerName, country, playerType, rating, handed, price, imageUrl,id } = data
     return (
       
         <div>
@@ -32,7 +32,7 @@ const Main = ({data}) => {
                     </div>
                     <div className="flex justify-between">
                         <p>Price : ${price}</p>
-                        <button className="px-2 py-1 border rounded">Choose Player</button>
+                        <button className="px-2 py-1 border rounded" onClick={()=>handleChoosePlayerBtn(data)}>Choose Player</button>
                     </div>
                 </div>
             </div>

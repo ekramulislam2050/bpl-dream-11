@@ -43,5 +43,6 @@ const Main = ({data,handleChoosePlayerBtn}) => {
 };
 Main.propTypes = {
     data: PropTypes.object.isRequired,
+    handleChoosePlayerBtn:PropTypes.func.isRequired
 }
 export default Main;

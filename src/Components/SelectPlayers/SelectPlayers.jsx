@@ -5,7 +5,7 @@ const SelectPlayers = ({ data,handleDeleteBtn }) => {
     //   console.log(data)
  
     return (
-        <div>
+        <div id="visible" >
 
           <SelectPlayer data={data} handleDeleteBtn={handleDeleteBtn}></SelectPlayer>
      

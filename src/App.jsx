@@ -59,8 +59,7 @@ const handleDeleteBtn =(id)=>{
      const remaining = players.filter(players=>players.id !==id)
       setPlayers(remaining)
 }
-
-
+ 
 return (
   <>
     <Favicon url="https://i.ibb.co.com/KGdk8wg/cricket-1.png"></Favicon>
@@ -71,7 +70,7 @@ return (
 
     <Banners handleCreditBtn={handleCreditBtn}></Banners>
 
-    <Mains allData={allData} handleChoosePlayerBtn={handleChoosePlayerBtn}></Mains>
+    <Mains allData={allData} handleChoosePlayerBtn={handleChoosePlayerBtn}  ></Mains>
 
 
     <Footers></Footers>
